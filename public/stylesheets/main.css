@@ -1,0 +1,79 @@
+html {
+    margin-top: 60px;
+	overflow-y: overlay;
+}
+
+#color {
+    background-color: rgb(197, 0, 43);
+}
+
+#loadMore {
+	margin: 15px auto;
+	text-align: center;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#title {
+    color: rgb(197, 0, 43);
+    text-align: center;
+}
+
+#collapsed {
+    margin-left: 15px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+}
+
+#newList {
+    outline: none;
+    margin-left: 52px;
+    width: 200px;
+    border: 3px solid #ffea92;
+    color: rgb(197, 0, 43);
+    background-color: #ffea92;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+#newList::placeholder {
+    color: rgb(197, 0, 43);
+    font-weight: 700;
+    /* padding-left: 5px; */
+    font-size: 0.95em;
+}
+
+#collapsed span {
+    background:#ffea92;
+    color: rgb(197, 0, 43);
+    text-align: center;
+    width: 0;
+    display: inline-block;
+    transition: 0.2s linear;
+    opacity: 0;
+    font-size: 1em;
+}
+
+#collapsed li:hover span {
+    width: 30px;
+    opacity: 1.0;
+}
+
+#delete {
+	border: none;
+	text-align: center;
+	color: rgb(197, 0, 43);
+	background: #ffea92;
+	outline: none;
+	font-size: 0.95em;
+}
+
+.form-control:focus{
+	outline: 4px solid #ffea92;
+	box-shadow: none;
+}
